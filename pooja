@@ -1,1 +1,13 @@
-now testing
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore pip-related files
+*.egg-info/
+pip-log.txt
